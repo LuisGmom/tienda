@@ -1,0 +1,214 @@
+/*
+/////Realizado por LuisGmom, plantillas hechas sin diseño responsive
+////sin logica de JS solo con estilos de CSS
+*/
+
+body { 
+    /*background-color: #94a4a7;*/
+    background-color: #34495e;
+    color: #240e10; font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.LogoHeader { 
+    background-color: transparent;
+    width: 70px;
+    height: 70px;
+    /*display: inline-block;*/
+}
+
+header { 
+    background-color: #09889e;
+    color: #240e10; 
+    font-size: 18px;
+    /*margin: 0px 0px 60px 0px;*/
+    padding: 0px 0px 30px 0px;
+    overflow: hidden;
+}
+
+.mainmenu > ul > li {
+    padding: 5px; list-style: none; display: inline-flex; position: relative;
+} 
+.mainmenu > ul {
+    position: relative;
+    left: calc(50% - 150px);
+}
+.mainmenu > li {
+    position: relative;
+    right: calc(50% - 150px);
+}
+
+.Buttsession > ul > li {
+    list-style: none; display: inline-flex; padding: 5px; position: top; float: right;
+} 
+
+/* estilos para Wrapper */
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: minmax(100px, auto);
+    gap: 1em;
+    margin: 60px 0 60px 0;
+    padding: 0 15% 0 15%;
+    /*background-color: #acdbe6;*/
+    overflow: hidden;
+
+}
+.wrapper > div > img {
+    display: inline-block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper > div {
+    border: 3px solid #ffffff;
+    background-color: #acdbe6;
+    padding: 0px 30px 0 30px;
+}
+.wrapper > h2 {
+    text-align: center;
+    font-size: 20px;
+}
+.wrapper > div:hover {
+    border: 2px solid #40e0d0;
+}
+.wrapper > div > button {
+    background-color: #34495e;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+.wrapper > div > button:hover {
+    background-color: #4f9e96;;
+}
+
+.baninfo {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: minmax(100px, auto);
+    width: 100%;
+    overflow: hidden;
+}
+.baninfo > div {
+    background-color: #acdbe6;
+    padding: 50px 35% 50px 35%;
+}
+.baninfo > h2 {
+    text-align: center;
+    font-size: 20px;
+}
+/* estilos para Container */
+
+.Container {
+    margin: auto;
+    background-color: rgb(252, 138, 45);
+    width: 100%; height: 190px;
+    /*border-radius: 100%;
+    padding: 10px;*/
+    text-align: center;  
+    overflow: hidden;
+}
+.Container > div > h2 {
+    font-size: 40px;
+    padding: 30px 0 0px 0;
+}
+
+/* estilos para divPad */
+
+#divPad { 
+    background-color: #8fe1f0;
+    color: #240e10; 
+    border: 1px;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.img { 
+    display: inline-block;
+}  
+
+/*/////////////////CONTACT US//////////////////////
+////////////////////////////////////////////////*/
+.contform {
+    overflow: hidden;
+    margin: 60px auto;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+}
+.imgform{
+    /*text-align: center;*/
+    height: auto;
+    width: 250px;
+    /*margin: 0 auto;*/
+    
+}
+.imgform > img{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #240e10;
+}
+.formcli { 
+    text-align: justify;
+    width: 300px; 
+    height: 300px;
+    overflow: hidden;
+    background-color: #4dbfd9;
+    border: 1px solid #240e10;
+}
+.formcli div { 
+    padding: 5px;
+}
+/*/////////////////CONTACT US//////////////////////
+////////////////////////////////////////////////*/
+
+/*/////////////////ABOUT US//////////////////////
+////////////////////////////////////////////////*/
+.about_cont {
+    overflow: hidden;
+    margin: 60px auto;
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+}
+.inf_about{ 
+    text-align: justify;
+    width: auto; 
+    height: 300px;
+    overflow: hidden;
+    color: #ebebeb;
+    font-size: 18px;
+    background-color: #4dbfd9;
+    border: 1px solid #240e10;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.img_about{
+    /*text-align: center;*/
+    height: auto;
+    width: 300px;
+    /*margin: 0 auto;*/
+    
+}
+.img_about > img{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #240e10;
+}
+/*/////////////////ABOUT US//////////////////////
+////////////////////////////////////////////////*/
+footer > section {
+    position: bottom; background-color: #034050; width: 100%; height: 200px;
+    color: whitesmoke;
+    display: grid; grid-template-columns: 40% 20% 20% 20%;
+}
+a {
+    color:#f5f5f5
+}
+a:hover {
+    color: lawngreen;
+}
